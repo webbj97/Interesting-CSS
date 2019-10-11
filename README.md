@@ -7,7 +7,7 @@
 ## 基础的CSS
 
 ## 基础的CSS3
-[]()
+[CSS3边框阴影](https://webbj97.github.io/Interesting-CSS/CSS3/shadow/index.html)
 ## 有趣的效果
 
 ---
