@@ -7,8 +7,9 @@
 ### 基础的CSS
 
 ### 圆角（border-radius）
-[基础border-radius：常见的圆角](https://webbj97.github.io/Interesting-CSS/CSS3/radius/one.html)  
-[进阶border-radius：波浪效果](https://webbj97.github.io/Interesting-CSS/CSS3/radius/two.html)  
+[基础border-radius：常见的圆角](https://webbj97.github.io/Interesting-CSS/CSS3/radius/radius.html)  
+[进阶border-radius：波浪效果](https://webbj97.github.io/Interesting-CSS/CSS3/radius/radius-wave.html)  
+[进阶border-radius：旋转的radius](https://webbj97.github.io/Interesting-CSS/CSS3/radius/radius-rotote.html)  
 
 ### 阴影效果（box-shadows）
 [单侧阴影](https://webbj97.github.io/Interesting-CSS/CSS3/shadow/one.html)  
