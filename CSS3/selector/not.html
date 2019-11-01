@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            position: relative;
+            left: 50%;
+            width: 600px;
+            margin-left: -300px;
+            height: 100px;
+            background: rgba(0,0,0,.1);
+            list-style: none;
+            display: flex;
+            align-items: center;
+            /* box-shadow: 3px 3px 5px #ccc; */
+        }
+        .box .item{
+            height: 30px;
+            line-height: 30px;
+            padding: 2px 20px;
+        }   
+        .box .item:not(:last-child){
+            border-right: 2px solid #aaa;
+        }
+    </style>
+</head>
+<body>
+    <ul class="box">
+        <li class="item">one</li>
+        <li class="item">two</li>
+        <li class="item">three</li>
+        <li class="item">four</li>
+    </ul>
+</body>
+</html>
