@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 700px;
+            height: 300px;
+            /* border: 1px solid red; */
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            background: #f5f6fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box .box-flex{
+            width: 8rem;
+            height: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .box .box-flex div {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            background: #545aa0;
+            animation: loader .6s infinite alternate;
+        }
+        .box .box-flex div:nth-child(2) {
+            animation-delay: .2s;
+        }
+        .box .box-flex div:nth-child(3) {
+            animation-delay: .4s;
+        }
+        @keyframes loader {
+            to {
+                opacity: 0.1;
+                transform: translate3d(0, -1rem, 0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box-flex">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+
+</html>

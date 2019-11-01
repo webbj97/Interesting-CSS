@@ -18,6 +18,8 @@
 ### 过渡效果 (transition)
 [hover态滑动出遮罩层](https://webbj97.github.io/Interesting-CSS/CSS3/transition/one.html)  
 
+### loading效果 (animation)
+[bouncing-loader](https://webbj97.github.io/Interesting-CSS/CSS3/animation/loading/bouncing.html)
 
 
 ---
