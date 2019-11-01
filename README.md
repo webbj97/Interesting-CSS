@@ -1,7 +1,7 @@
 # 有趣的CSS和实用样式
 
 众所周知，CSS是样式表语言，但是它并不简单，它可以完成许多酷炫、神奇的效果，如果深入的研究，甚至可以成为前端开发进阶的一个主要方向。
-所以我们从基础开始，逐渐去了解接触一些有趣的CSS效果
+所以我们从基础开始，逐渐去了解接触一些有趣的CSS效果（如果对您有帮助，不妨点下star～^～）
 
 
 ### 基础的CSS
@@ -19,9 +19,12 @@
 [hover态滑动出遮罩层](https://webbj97.github.io/Interesting-CSS/CSS3/transition/one.html)  
 [bouncing-loader](https://webbj97.github.io/Interesting-CSS/CSS3/animation/loading/bouncing.html)
 
+### 渐变（linear-gradient）
+
+[内容溢出-滚动渐变](https://webbj97.github.io/Interesting-CSS/CSS3/linear/overflow-scroll-gradient.html)
 
 ---
-待完善
+未完待续
 
 **本仓库的创建灵感来自多个Github的CSS相关仓库**
 * [CSS灵感](https://github.com/chokcoco/CSS-Inspiration)
