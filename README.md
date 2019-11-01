@@ -1,3 +1,4 @@
+<div align=center><img src='./image/logo.png'/></div>
 # 有趣的CSS和实用样式
 
 CSS可以配合标签完成许多酷炫、神奇的效果，如果深入的研究，甚至可以成为前端开发进阶的一个主要方向。
@@ -9,7 +10,7 @@ CSS可以配合标签完成许多酷炫、神奇的效果，如果深入的研�
 
 ### 选择器妙用
 * :not(selector),选择非 <selector> 元素的每个元素。
-  *设置一组样式（最后一个元素除外） [:not selector](https://webbj97.github.io/Interesting-CSS/CSS3/selector/not.html)
+  * 设置一组样式（最后一个元素除外） [:not selector](https://webbj97.github.io/Interesting-CSS/CSS3/selector/not.html)
 
 ### 圆角（border-radius）
 [基础border-radius：常见的圆角](https://webbj97.github.io/Interesting-CSS/CSS3/radius/radius.html)  
