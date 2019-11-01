@@ -1,5 +1,6 @@
-[logo](https://webbj97.github.io/Interesting-CSS/image/logo.png)
-# 有趣的CSS和实用样式
+![logo](https://webbj97.github.io/Interesting-CSS/image/logo.png)
+<h1 align=center>有趣的CSS和实用样式</h1>
+
 
 CSS可以配合标签完成许多酷炫、神奇的效果，如果深入的研究，甚至可以成为前端开发进阶的一个主要方向。
 
