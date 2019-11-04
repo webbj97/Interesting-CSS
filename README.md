@@ -7,7 +7,10 @@ CSS可以配合标签完成许多酷炫、神奇的效果，如果深入的研�
 所以我们从基础开始，逐渐去了解接触一些有趣的CSS效果（如果对您有帮助，不妨点下star～^～）
 
 
-### 基础的CSS
+### 有趣的CSS
+
+[一个顶部带有三角形的文本容器](https://webbj97.github.io/Interesting-CSS/CSS3/normal/top-triangle.html)
+
 
 ### 选择器妙用
 
@@ -18,7 +21,7 @@ CSS可以配合标签完成许多酷炫、神奇的效果，如果深入的研�
  
 ### 圆角（border-radius）
 [基础border-radius：常见的圆角](https://webbj97.github.io/Interesting-CSS/CSS3/radius/radius.html)  
-[基础border-radius：纯CSS画圆](https://webbj97.github.io/Interesting-CSS/CSS3/radius/circle.html) 
+[基础border-radius：纯CSS画圆](https://webbj97.github.io/Interesting-CSS/CSS3/radius/circle.html)  
 [进阶border-radius：波浪效果](https://webbj97.github.io/Interesting-CSS/CSS3/radius/radius-wave.html)  
 [进阶border-radius：旋转的radius](https://webbj97.github.io/Interesting-CSS/CSS3/radius/radius-rotote.html)  
 
