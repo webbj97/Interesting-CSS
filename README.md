@@ -19,7 +19,8 @@ CSS可以配合标签完成许多酷炫、神奇的效果，如果深入的研�
 [进阶border-radius：旋转的radius](https://webbj97.github.io/Interesting-CSS/CSS3/radius/radius-rotote.html)  
 
 ### 阴影效果（box-shadows）
-[单侧阴影](https://webbj97.github.io/Interesting-CSS/CSS3/shadow/one.html)  
+[动态的阴影(不用box-shadow实现的阴影)](https://webbj97.github.io/Interesting-CSS/CSS3/shadow/dynamic-shadow.html)  
+[嵌入背景的字体](https://webbj97.github.io/Interesting-CSS/CSS3/shadow/etched-text.html)  
 [立体阴影](https://webbj97.github.io/Interesting-CSS/CSS3/shadow/two.html)  
 
 ### 过渡效果 (transition)
