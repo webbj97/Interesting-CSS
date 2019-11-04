@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mouse cursor gradient tracking</title>
+    <style>
+        html{
+            --size: 0;
+            --x: 0;
+            --y: 0;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            position: relative;
+            width: 600px;
+            height: 200px;
+            background: #7983ff;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 150px;
+            color: #fff;
+            font-size: 30px;
+            line-height: 200px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            overflow: hidden;
+        }
+        .box::before {
+            content: '';
+            position: absolute;
+            left: var(--x);
+            top: var(--y);
+            width: var(--size);
+            height: var(--size);
+            background: radial-gradient(circle closest-side, rgb(245, 154, 169), transparent);
+            transform: translate(-50%, -50%);
+            transition: width 0.2s ease, height 0.2s ease;
+        }
+        .box:hover::before {
+            --size: 300%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        hover me
+    </div>
+
+    <script>
+        var Box = document.querySelector('.box')
+        var Html = document.querySelector('html')
+        console.log(Html)
+        Box.onmousemove = function (e) {
+            var rect = e.target.getBoundingClientRect()
+            console.log(rect, 'rect')
+            var x = e.clientX - rect.left
+            var y = e.clientY - rect.top
+            console.log('(',x,y,')')
+            Html.style.setProperty('--x', x + 'px')
+            Html.style.setProperty('--y', y + 'px')
+        }
+    </script>
+</body>
+
+</html>
