@@ -26,8 +26,8 @@ CSS可以配合标签完成许多酷炫、神奇的效果，如果深入的研�
 [bouncing-loader](https://webbj97.github.io/Interesting-CSS/CSS3/animation/loading/bouncing.html)  
 
 ### 渐变（linear-gradient）
-
 [内容溢出-滚动渐变](https://webbj97.github.io/Interesting-CSS/CSS3/linear/overflow-scroll-gradient.html)  
+[grandient-text](https://webbj97.github.io/Interesting-CSS/CSS3/linear/grandient-text.html)  
 
 ### hover态效果
 [hover态滑动出遮罩层](https://webbj97.github.io/Interesting-CSS/CSS3/hover/model.html)  
