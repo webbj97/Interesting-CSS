@@ -10,15 +10,12 @@ CSS可以配合标签完成许多酷炫、神奇的效果，如果深入的研�
 ### 基础的CSS
 
 ### 选择器妙用
-* :not(selector),选择非 <selector> 元素的每个元素。
-  * 设置一组样式（最后一个元素除外） [:not selector](https://webbj97.github.io/Interesting-CSS/CSS3/selector/not.html)
-
----
 
 * 伪元素选择器
-  * ::first-letter(块级元素第一行的第一个字母)  [首字母大写](https://webbj97.github.io/Interesting-CSS/CSS3/selector/first-letter.html)
-
-
+  * `::first-letter`(块级元素第一行的第一个字母)  [首字母大写](https://webbj97.github.io/Interesting-CSS/CSS3/selector/element/first-letter.html)  
+  * `::not`（设置一组样式最后一个元素除外） [最后不带通用样式](https://webbj97.github.io/Interesting-CSS/CSS3/selector/element/not.html)  
+  * `::selection` (文本选中的样式) [改变文本选中的样式](https://webbj97.github.io/Interesting-CSS/CSS3/selector/element/selection.html)  
+ 
 ### 圆角（border-radius）
 [基础border-radius：常见的圆角](https://webbj97.github.io/Interesting-CSS/CSS3/radius/radius.html)  
 [进阶border-radius：波浪效果](https://webbj97.github.io/Interesting-CSS/CSS3/radius/radius-wave.html)  
