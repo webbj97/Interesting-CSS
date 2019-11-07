@@ -7,9 +7,10 @@ CSS可以配合标签完成许多酷炫、神奇的效果，如果深入的研�
 所以我们从基础开始，逐渐去了解接触一些有趣的CSS效果（如果对您有帮助，不妨点下star～^～）
 
 
-### 有趣的CSS
+### 常用样式
 
 [一个顶部带有三角形的文本容器](https://webbj97.github.io/Interesting-CSS/CSS3/normal/top-triangle.html)
+[文字过长截断并显示省略号](https://webbj97.github.io/Interesting-CSS/CSS3/normal/truncate-text.html)
 
 
 ### 选择器妙用
