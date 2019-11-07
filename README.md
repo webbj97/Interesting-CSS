@@ -29,6 +29,7 @@ CSS可以配合标签完成许多酷炫、神奇的效果，如果深入的研�
 [动态的阴影(不用box-shadow实现的阴影)](https://webbj97.github.io/Interesting-CSS/CSS3/shadow/dynamic-shadow.html)  
 [嵌入背景的字体](https://webbj97.github.io/Interesting-CSS/CSS3/shadow/etched-text.html)  
 [立体阴影](https://webbj97.github.io/Interesting-CSS/CSS3/shadow/two.html)  
+[字体光效](https://webbj97.github.io/Interesting-CSS/CSS3/shadow/light-effect.html)  
 
 ### 过渡效果 (transition)
 [bouncing-loader](https://webbj97.github.io/Interesting-CSS/CSS3/animation/loading/bouncing.html)  
