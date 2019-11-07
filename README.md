@@ -9,6 +9,7 @@ CSS可以配合标签完成许多酷炫、神奇的效果，如果深入的研�
 
 ### 常用样式
 
+[竖直水平居中（利用translate）](https://webbj97.github.io/Interesting-CSS/CSS3/normal/transform-centering.html)  
 [一个顶部带有三角形的文本容器](https://webbj97.github.io/Interesting-CSS/CSS3/normal/top-triangle.html)  
 [文字过长截断并显示省略号](https://webbj97.github.io/Interesting-CSS/CSS3/normal/truncate-text.html)  
 
@@ -38,7 +39,7 @@ CSS可以配合标签完成许多酷炫、神奇的效果，如果深入的研�
 ### 渐变（linear-gradient）
 [内容溢出-滚动渐变](https://webbj97.github.io/Interesting-CSS/CSS3/linear/overflow-scroll-gradient.html)  
 [grandient-text](https://webbj97.github.io/Interesting-CSS/CSS3/linear/grandient-text.html)  
-[最后的文字渐变过渡](https://webbj97.github.io/Interesting-CSS/CSS3/linear/grandient-text.html)  
+[最后的文字渐变过渡](https://webbj97.github.io/Interesting-CSS/CSS3/linear/truncate-text-multiline.html)  
 
 ### hover态效果
 [hover态滑动出遮罩层](https://webbj97.github.io/Interesting-CSS/CSS3/hover/model.html)  
