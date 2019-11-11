@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>旋转的radius</title>
+    <style>
+        .box{
+            position: relative;
+            margin-top: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 20vh;
+            width: 20vh;
+            border-radius: 35%;
+            background: linear-gradient(120deg, #34e0f0 0%, #b400ff 100%);
+            animation: rotateMain 6s linear infinite;
+            opacity: 0.9;
+        }
+        .box::after{
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180deg, #35a0f0 0%, #b233f0 100%);
+            box-shadow: 5px 5px 90px rgba(10, 102, 255, 0.5);
+            border-radius: 40%;
+            z-index: -1;
+            animation: rotateMain 7s linear infinite;
+        }
+        .box::before{
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(60deg, #33580f 0%, #b7ee6d 100%);
+            box-shadow: 5px 5px 60px rgba(20, 102, 255, 0.3);
+            border-radius: 35%;
+            animation: rotateMain 8s linear infinite;
+            opacity: 0.6;
+        }
+        @keyframes rotateMain {
+            0% {
+                transform: rotateZ(0);
+            }
+            50% {
+                transform: rotateZ(180deg);
+            }
+            100% {
+                transform: rotateZ(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

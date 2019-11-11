@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+        }
+        @keyframes donut-spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        div{
+            margin-right: 30px;
+        }
+        .donut {
+            display: inline-block;
+            border: 8px solid rgba(0, 0, 0, 0.1);
+            border-left-color: #7983ff;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            animation: donut-spin 1.4s linear infinite;
+        }
+        .donut1 {
+            display: inline-block;
+            border: 8px solid rgba(0, 0, 0, 0.1);
+            border-left-color: #7983ff;
+            border-top-color: #7983ff;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            animation: donut-spin 1.2s linear infinite;
+        }
+        .donut2 {
+            display: inline-block;
+            border: 8px solid rgba(0, 0, 0, 0.1);
+            border-left-color: #7983ff;
+            border-top-color: #7983ff;
+            border-right-color: #7983ff;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            animation: donut-spin 1s linear infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="donut"></div>
+    <div class="donut1"></div>
+    <div class="donut2"></div>
+</body>
+
+</html>
