@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "gitbook build",
-    "deploy": "npm run build && gh-pages _book"
+    "deploy": "npm run build && gh-pages -d _book"
   },
   "repository": {
     "type": "git",
