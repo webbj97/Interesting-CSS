@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>波浪</title>
+    <style>
+        .box {
+            position: relative;
+            align-items: center;
+            height: 400px;
+            background-color: rgb(118, 218, 255);
+            overflow: hidden;
+            left: 50%;
+            margin-left: -600px;
+            width: 1200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box:before, .box:after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            min-width: 300vw;
+            min-height: 300vw;
+            background-color: #fff;
+            animation-name: rotate;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .box:before {
+            bottom: 15vh;
+            border-radius: 45%;
+            animation-duration: 10s;
+        }
+
+        .box:after {
+            bottom: 12vh;
+            opacity: .5;
+            border-radius: 47%;
+            animation-duration: 10s;
+        }
+        @keyframes rotate {
+            0% {
+                transform: translate(-50%, 0) rotateZ(0deg);
+            }
+            50% {
+                transform: translate(-50%, -2%) rotateZ(180deg);
+            }
+            100% {
+                transform: translate(-50%, 0%) rotateZ(360deg);
+            }
+        }
+        h2 {
+            position: relative;
+            color: #333;
+            z-index: 10;
+            text-align: center;
+            font-size: 50px;
+            text-shadow: 3px 3px 2px #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>wave border-radius</h2>
+    </div>
+</body>
+</html>

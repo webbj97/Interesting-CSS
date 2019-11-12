@@ -1,0 +1,26 @@
+{
+  "name": "interesting-css",
+  "version": "1.0.0",
+  "description": "![logo](https://webbj97.github.io/Interesting-CSS/image/logo.png) <h1 align=center>有趣的CSS和实用样式</h1>",
+  "main": "test.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "gitbook build",
+    "deploy": "npm run build && gh-pages -d _book"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbj97/Interesting-CSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webbj97/Interesting-CSS/issues"
+  },
+  "homepage": "https://github.com/webbj97/Interesting-CSS#readme",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
