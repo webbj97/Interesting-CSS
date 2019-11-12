@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>立体阴影</title>
+    <style>
+        .box{
+            width: 600px;
+            height: 300px;
+            border: 1px solid #bbb;
+            margin: 100px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box .item{
+            position: relative;
+            width: 500px;
+            height: 80px;
+            border-radius: 10px 10px 10px 20%;
+            background: rgb(230, 216, 21);
+        }
+        .box .item::before{
+            position: absolute;
+            z-index: -1;
+            left: 10px;
+            bottom: -4px;
+            content: '';
+            width: 96%;
+            height: 80%;
+            border-radius: 5% 10% 5% 8%;
+            transform: rotate(-2deg);
+            background: rgb(54, 54, 49);
+            box-shadow: 0 0 10px 5px rgb(54, 54, 49);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="item"></div>
+    </div>
+</body>
+</html>

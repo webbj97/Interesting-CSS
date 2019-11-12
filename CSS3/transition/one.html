@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hover态划出信息</title>
+    <style>
+        .title{
+            text-align: center;
+            margin: 40px 0;
+        }
+        .box {
+            display: flex;
+            justify-content: space-around;
+            margin-left: auto;
+            margin-right: auto;
+            width: 880px;
+        }
+
+        .box .item {
+            position: relative;
+            width: 200px;
+            height: 340px;
+            border: 1px solid #aaa;
+            font-size: 22px;
+            text-align: center;
+            overflow: hidden;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+        }
+
+        .box .item .text {
+            position: absolute;
+            width: 200px;
+            height: 340px;
+            box-sizing: border-box;
+            background: rgba(0, 0, 0, 0.5);
+            transition: all 1s;
+            color: red;
+            white-space: normal;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box .item .text1 {
+            top: 340px;
+            left: 0;
+        }
+        .box .item .text2 {
+            top: -340px;
+            left: 0;
+        }
+        .box .item .text3 {
+            top: 0;
+            left: -200px;
+        }
+        .box .item .text4 {
+            top: 0;
+            left: 200px;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .box .item1:hover .text1 {
+            top: 0;
+        }
+        .box .item2:hover .text2 {
+            top: 0;
+        }
+        .box .item3:hover .text3 {
+            left: 0;
+        }
+        .box .item4:hover .text4 {
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="title">在我们浏览商品，或者处于美观，我们不希望用户一次性看到更多的内容时，就需要通过用户的操作来显示文字，最常见的就是通过hover来触发</p>
+    <p class="title">第一层是突出标题</p>
+    <p class="title">第二层展示具体的介绍</p>
+    <div class="box">
+        <div class="item item1">
+            <div>从下向上</div>
+            <div class="text text1">
+                <p>第一层信息</p>
+                hover态显示文字
+            </div>
+        </div>
+        <div class="item item2">
+            <div>从上向下</div>
+            <div class="text text2">
+                <p>第一层信息</p>
+                hover态显示文字
+            </div>
+        </div>
+        <div class="item item3">
+            <div>从左向右</div>
+            <div class="text text3">
+                <p>第一层信息</p>
+                hover态显示文字
+            </div>
+        </div>
+        <div class="item item4">
+            <div>从右向左</div>
+            <div class="text text4">
+                <p>第一层信息</p>
+                hover态显示文字
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
