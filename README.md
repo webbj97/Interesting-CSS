@@ -1,6 +1,10 @@
 ![logo](https://webbj97.github.io/Interesting-CSS/image/logo1.png)
 <h1 align=center>有趣的CSS和实用样式</h1>
 
+<h2 align=center> 
+<img src='https://img.shields.io/badge/1.0.0-InterestCss-brightgreen'/>
+<img src='https://img.shields.io/badge/author-bojianJiang-blue'/>  
+</h2>
 
 CSS可以配合标签完成许多酷炫、神奇的效果，如果深入的研究，甚至可以成为前端开发进阶的一个主要方向。
 
@@ -39,6 +43,7 @@ CSS可以配合标签完成许多酷炫、神奇的效果，如果深入的研�
 [bouncing-loader](https://webbj97.github.io/Interesting-CSS/CSS3/animation/loading/bouncing.html)  
 [border-loading](https://webbj97.github.io/Interesting-CSS/CSS3/animation/border-animation/index.html) 
 [按钮边框动效果](https://webbj97.github.io/Interesting-CSS/CSS3/animation/button-animation/index.html)  
+[Auto-Height](https://webbj97.github.io/Interesting-CSS/CSS3/transition/height.html)  
 
 ### 渐变（linear-gradient）
 [内容溢出-滚动渐变](https://webbj97.github.io/Interesting-CSS/CSS3/linear/overflow-scroll-gradient.html)  

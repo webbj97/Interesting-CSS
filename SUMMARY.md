@@ -16,8 +16,9 @@
 * [动画-animation](docs/animation.md)  
     * [加载效果汇总](docs/animation/loading.md)
     * [太极图](docs/animation/taicai.md)
-* [过渡-transition](docs/transition.md)  
+* [过渡-transition](docs/transition/transition.md)  
     * [按钮的过渡](docs/transition/button-border.md)
+    * [Height-transition](docs/transition/height-transition.md)
 * [圆角-radius](docs/radius.md)  
     * [有趣的波浪](docs/radius/radius-wave.md)
 

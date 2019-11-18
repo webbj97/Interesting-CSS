@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>立体按钮 · GitBook</title>
+        <title>过渡-transition · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../animation.html" />
+    <link rel="next" href="button-border.html" />
     
     
-    <link rel="prev" href="../transition.md" />
+    <link rel="prev" href="../animation/taicai.html" />
     
 
     </head>
@@ -239,9 +239,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="2.3.1" data-path="3D-button.html">
+        <li class="chapter " data-level="2.3.1" data-path="../3D/3D-button.html">
             
-                <a href="3D-button.html">
+                <a href="../3D/3D-button.html">
             
                     
                     立体按钮
@@ -302,9 +302,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.5" data-path="../transition/transition.html">
+        <li class="chapter active" data-level="2.5" data-path="transition.html">
             
-                <a href="../transition/transition.html">
+                <a href="transition.html">
             
                     
                     过渡-transition
@@ -316,9 +316,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.5.1" data-path="../transition/button-border.html">
+        <li class="chapter " data-level="2.5.1" data-path="button-border.html">
             
-                <a href="../transition/button-border.html">
+                <a href="button-border.html">
             
                     
                     按钮的过渡
@@ -329,7 +329,7 @@
             
         </li>
     
-        <li class="chapter " data-level="2.5.2" data-path="../transition/height-transition.md">
+        <li class="chapter " data-level="2.5.2" data-path="height-transition.md">
             
                 <span>
             
@@ -409,7 +409,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >立体按钮</a>
+        <a href="../.." >过渡-transition</a>
     </h1>
 </div>
 
@@ -424,7 +424,35 @@
     
                                 <section class="normal markdown-section">
                                 
-                                
+                                <h1 id="transition">transition</h1>
+<p>transition &#x5C5E;&#x6027;&#x662F;&#x4E00;&#x4E2A;&#x7B80;&#x5199;&#x5C5E;&#x6027;&#xFF0C;&#x7528;&#x4E8E;&#x8BBE;&#x7F6E;&#x56DB;&#x4E2A;&#x8FC7;&#x6E21;&#x5C5E;&#x6027;</p>
+<h2 id="&#x5B9A;&#x4E49;&#x548C;&#x7528;&#x6CD5;">&#x5B9A;&#x4E49;&#x548C;&#x7528;&#x6CD5;</h2>
+<ul>
+<li>transition-property<ul>
+<li>none    &#x6CA1;&#x6709;&#x5C5E;&#x6027;&#x4F1A;&#x83B7;&#x5F97;&#x8FC7;&#x6E21;&#x6548;&#x679C;&#x3002;</li>
+<li>all    &#x6240;&#x6709;&#x5C5E;&#x6027;&#x90FD;&#x5C06;&#x83B7;&#x5F97;&#x8FC7;&#x6E21;&#x6548;&#x679C;&#x3002;</li>
+<li>property    &#x5B9A;&#x4E49;&#x5E94;&#x7528;&#x8FC7;&#x6E21;&#x6548;&#x679C;&#x7684; CSS &#x5C5E;&#x6027;&#x540D;&#x79F0;&#x5217;&#x8868;&#xFF0C;&#x5217;&#x8868;&#x4EE5;&#x9017;&#x53F7;&#x5206;&#x9694;&#x3002;</li>
+</ul>
+</li>
+<li>transition-duration<ul>
+<li>time    &#x89C4;&#x5B9A;&#x5B8C;&#x6210;&#x8FC7;&#x6E21;&#x6548;&#x679C;&#x9700;&#x8981;&#x82B1;&#x8D39;&#x7684;&#x65F6;&#x95F4;&#xFF08;&#x4EE5;&#x79D2;&#x6216;&#x6BEB;&#x79D2;&#x8BA1;&#xFF09;&#xFF0C;&#x9ED8;&#x8BA4;&#x503C;&#x662F; 0&#xFF0C;&#x610F;&#x5473;&#x7740;&#x4E0D;&#x4F1A;&#x6709;&#x6548;&#x679C;&#x3002;</li>
+</ul>
+</li>
+<li>transition-timing-function<ul>
+<li>linear    &#x89C4;&#x5B9A;&#x4EE5;&#x76F8;&#x540C;&#x901F;&#x5EA6;&#x5F00;&#x59CB;&#x81F3;&#x7ED3;&#x675F;&#x7684;&#x8FC7;&#x6E21;&#x6548;&#x679C;&#xFF08;&#x7B49;&#x4E8E; cubic-bezier(0,0,1,1)&#xFF09;&#x3002;</li>
+<li>ease    &#x89C4;&#x5B9A;&#x6162;&#x901F;&#x5F00;&#x59CB;&#xFF0C;&#x7136;&#x540E;&#x53D8;&#x5FEB;&#xFF0C;&#x7136;&#x540E;&#x6162;&#x901F;&#x7ED3;&#x675F;&#x7684;&#x8FC7;&#x6E21;&#x6548;&#x679C;&#xFF08;cubic-bezier(0.25,0.1,0.25,1)&#xFF09;&#x3002;</li>
+<li>ease-in    &#x89C4;&#x5B9A;&#x4EE5;&#x6162;&#x901F;&#x5F00;&#x59CB;&#x7684;&#x8FC7;&#x6E21;&#x6548;&#x679C;&#xFF08;&#x7B49;&#x4E8E; cubic-bezier(0.42,0,1,1)&#xFF09;&#x3002;</li>
+<li>ease-out    &#x89C4;&#x5B9A;&#x4EE5;&#x6162;&#x901F;&#x7ED3;&#x675F;&#x7684;&#x8FC7;&#x6E21;&#x6548;&#x679C;&#xFF08;&#x7B49;&#x4E8E; cubic-bezier(0,0,0.58,1)&#xFF09;&#x3002;</li>
+<li>ease-in-out    &#x89C4;&#x5B9A;&#x4EE5;&#x6162;&#x901F;&#x5F00;&#x59CB;&#x548C;&#x7ED3;&#x675F;&#x7684;&#x8FC7;&#x6E21;&#x6548;&#x679C;&#xFF08;&#x7B49;&#x4E8E; cubic-bezier(0.42,0,0.58,1)&#xFF09;&#x3002;</li>
+<li>cubic-bezier(n,n,n,n)    &#x5728; cubic-bezier &#x51FD;&#x6570;&#x4E2D;&#x5B9A;&#x4E49;&#x81EA;&#x5DF1;&#x7684;&#x503C;&#x3002;&#x53EF;&#x80FD;&#x7684;&#x503C;&#x662F; 0 &#x81F3; 1 &#x4E4B;&#x95F4;&#x7684;&#x6570;&#x503C;&#x3002;</li>
+</ul>
+</li>
+<li>transition-delay<ul>
+<li>time    &#x89C4;&#x5B9A;&#x5728;&#x8FC7;&#x6E21;&#x6548;&#x679C;&#x5F00;&#x59CB;&#x4E4B;&#x524D;&#x9700;&#x8981;&#x7B49;&#x5F85;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x4EE5;&#x79D2;&#x6216;&#x6BEB;&#x79D2;&#x8BA1;&#x3002;</li>
+</ul>
+</li>
+</ul>
+
                                 
                                 </section>
                             
@@ -451,12 +479,12 @@
 
             
                 
-                <a href="../transition.md" class="navigation navigation-prev " aria-label="Previous page: 3D效果">
+                <a href="../animation/taicai.html" class="navigation navigation-prev " aria-label="Previous page: 太极图">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../animation.html" class="navigation navigation-next " aria-label="Next page: 动画-animation">
+                <a href="button-border.html" class="navigation navigation-next " aria-label="Next page: 按钮的过渡">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -467,7 +495,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"立体按钮","level":"2.3.1","depth":2,"next":{"title":"动画-animation","level":"2.4","depth":1,"path":"docs/animation.md","ref":"docs/animation.md","articles":[{"title":"加载效果汇总","level":"2.4.1","depth":2,"path":"docs/animation/loading.md","ref":"docs/animation/loading.md","articles":[]},{"title":"太极图","level":"2.4.2","depth":2,"path":"docs/animation/taicai.md","ref":"docs/animation/taicai.md","articles":[]}]},"previous":{"title":"3D效果","level":"2.3","depth":1,"path":"docs/transition.md","ref":"docs/transition.md","articles":[{"title":"立体按钮","level":"2.3.1","depth":2,"path":"docs/3D/3D-button.md","ref":"docs/3D/3D-button.md","articles":[]}]},"dir":"neutral"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/3D/3D-button.md","mtime":"2019-11-12T06:01:36.773Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-18T09:15:37.801Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"过渡-transition","level":"2.5","depth":1,"next":{"title":"按钮的过渡","level":"2.5.1","depth":2,"path":"docs/transition/button-border.md","ref":"docs/transition/button-border.md","articles":[]},"previous":{"title":"太极图","level":"2.4.2","depth":2,"path":"docs/animation/taicai.md","ref":"docs/animation/taicai.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/transition/transition.md","mtime":"2019-11-18T09:13:25.054Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-18T09:15:37.801Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
