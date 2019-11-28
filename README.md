@@ -56,3 +56,7 @@ CSS可以配合标签完成许多酷炫、神奇的效果，如果深入的研�
 
 ---
 未完待续
+
+<h1 align=center>
+    <img src="./image/star.png"/>
+</h1>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        .box{
+            position: relative;
+            width: 300px;
+            height: 300px;
+            border: 2px solid red;
+        }
+        .center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgb(112, 201, 204);
+        }
+        .child{
+            position: absolute;
+            top: -80px;
+            left: -80px;
+            width: 40px;
+            height: 40px;
+            border: 1px solid rgb(112, 201, 204);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: delaynone 3s infinite;
+        }
+        .child-child{
+            width: 14px;
+            height: 14px;
+            background: cornsilk;
+            border-radius: 50%;
+        }
+
+        @keyframes delaynone {
+            to{
+                width: 70px;
+                height: 70px;
+                opacity: 0;
+                border: 7px solid rgb(112, 201, 204);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="center">
+            <div class="child">
+                <div class="child-child"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
