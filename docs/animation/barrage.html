@@ -440,7 +440,191 @@
                                 <h1 id="&#x7EAF;css&#x5B9E;&#x73B0;&#x5F39;&#x5E55;&#x6548;&#x679C;">&#x7EAF;CSS&#x5B9E;&#x73B0;&#x5F39;&#x5E55;&#x6548;&#x679C;</h1>
 <p>&#x52A8;&#x753B;&#x76F8;&#x5173;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x5DF2;&#x7ECF;&#x672C;&#x90E8;&#x5206;&#x7684;&#x5F00;&#x5934;&#x7B80;&#x5355;&#x63D0;&#x8FC7;&#x4E86;&#xFF0C;&#x6211;&#x4EEC;&#x6765;&#x770B;&#x4E00;&#x4E0B;&#x672C;&#x6B21;&#x8981;&#x5B9E;&#x73B0;&#x7684;&#x6548;&#x679C;&#x2014;&#x2014;&#x5F39;&#x5E55;&#xFF5E;</p>
 <p>&#x5F53;&#x4F60;&#x5728;&#x9605;&#x8BFB;&#x3001;&#x770B;&#x89C6;&#x9891;&#x7684;&#x65F6;&#x5019;&#x7ECF;&#x5E38;&#x4F1A;&#x9047;&#x89C1;&#x4E00;&#x6BB5;&#x6587;&#x4EF6;&#x6216;&#x8005;&#x4E00;&#x5F20;&#x8868;&#x60C5;&#x4ECE;&#x9875;&#x9762;&#x5212;&#x8FC7;&#xFF0C;&#x8981;&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x5B8C;&#x6574;&#x7684;&#x529F;&#x80FD;&#x5F88;&#x590D;&#x6742;&#xFF0C;&#x4F46;&#x662F;&#x6211;&#x4EEC;&#x4EC5;&#x4EC5;&#x662F;&#x770B;&#x4E0A;&#x53BB;&#x548C;&#x5B83;&#x4E00;&#x6837;&#x5373;&#x53EF;&#xFF5E;</p>
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> &#xA9; All Rights Reserved </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> updated 2019-11-28 16:46:22 </span> </footer>
+<p>&#x5148;&#x653E;&#x4E00;&#x4E0B;&#x5B9E;&#x73B0;&#x51FA;&#x6765;&#x7684;&#x6548;&#x679C;&#x56FE;
+<img src="https://img-blog.csdnimg.cn/20191202133821169.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2piajY1Njg4Mzl6,size_16,color_FFFFFF,t_70" width="80%"></p>
+<h2 id="&#x6709;&#x8F68;&#x5F39;&#x5E55;">&#x6709;&#x8F68;&#x5F39;&#x5E55;</h2>
+<p>&#x770B;&#x6807;&#x9898;&#x5C31;&#x53EF;&#x4EE5;&#x77E5;&#x9053;&#xFF0C;&#x6211;&#x4EEC;&#x8981;&#x5B9E;&#x73B0;&#x7684;&#x7684;&#x5728;<code>&#x56FA;&#x5B9A;&#x884C;</code>&#x4E0A;&#x79FB;&#x52A8;&#x7684;&#x5F39;&#x5E55;&#xFF08;&#x518D;&#x81EA;&#x5DF1;&#x7684;&#x8F68;&#x9053;&#x4E0A;&#x79FB;&#x52A8;&#xFF09;&#x3002;</p>
+<h3 id="&#x4E00;&#x3001;&#x7B80;&#x5355;&#x753B;&#x4E00;&#x4E2A;&#x80CC;&#x666F;&#x677F;&#xFF0C;&#x4E09;&#x4E2A;&#x8F68;&#x9053;">&#x4E00;&#x3001;&#x7B80;&#x5355;&#x753B;&#x4E00;&#x4E2A;&#x80CC;&#x666F;&#x677F;&#xFF0C;&#x4E09;&#x4E2A;&#x8F68;&#x9053;</h3>
+<p><strong>CSS:</strong></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.box</span>{
+    <span class="hljs-attribute">width</span>: <span class="hljs-number">600px</span>;
+    <span class="hljs-attribute">height</span>: <span class="hljs-number">240px</span>;
+    <span class="hljs-attribute">background</span>: <span class="hljs-built_in">rgba</span>(0,0,0,0.1);
+    <span class="hljs-attribute">margin</span>: <span class="hljs-number">100px</span> auto <span class="hljs-number">0</span>;
+    <span class="hljs-attribute">display</span>: flex;
+    <span class="hljs-attribute">flex-direction</span>: column;
+    <span class="hljs-attribute">justify-content</span>: space-around;
+    <span class="hljs-attribute">overflow</span>: hidden;
+}
+<span class="hljs-selector-class">.track</span>{
+    <span class="hljs-attribute">height</span>: <span class="hljs-number">30px</span>;
+    <span class="hljs-attribute">border</span>: <span class="hljs-number">4px</span> solid <span class="hljs-built_in">rgba</span>(0,0,0,0.3);
+}
+</code></pre>
+<p><strong>Html</strong></p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;box&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;track&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;track&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;track&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p><strong>&#x6548;&#x679C;&#x56FE;&#xFF1A;</strong>
+<img src="https://img-blog.csdnimg.cn/20191202103852677.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2piajY1Njg4Mzl6,size_16,color_FFFFFF,t_70" width=""></p>
+<h3 id="&#x4E8C;&#x3001;&#x5728;&#x6BCF;&#x6761;&#x8F68;&#x9053;&#x4E0A;&#x6DFB;&#x52A0;&#x4E00;&#x6761;&#x6587;&#x5B57;">&#x4E8C;&#x3001;&#x5728;&#x6BCF;&#x6761;&#x8F68;&#x9053;&#x4E0A;&#x6DFB;&#x52A0;&#x4E00;&#x6761;&#x6587;&#x5B57;</h3>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;box&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;track&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;child child-1&quot;</span>&gt;</span>&#x6211;&#x662F;&#x5F39;&#x5E55;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;track&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;child child-2&quot;</span>&gt;</span>&#x6211;&#x662F;&#x5F39;&#x5E55;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;track&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;child child-3&quot;</span>&gt;</span>&#x6211;&#x662F;&#x5F39;&#x5E55;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<h3 id="&#x4E09;&#x3001;&#x6DFB;&#x52A0;&#x52A8;&#x753B;&#xFF0C;&#x8BA9;&#x6587;&#x5B57;&#x52A8;&#x8D77;&#x6765;">&#x4E09;&#x3001;&#x6DFB;&#x52A0;&#x52A8;&#x753B;&#xFF0C;&#x8BA9;&#x6587;&#x5B57;&#x52A8;&#x8D77;&#x6765;</h3>
+<p>&#x8FD9;&#x91CC;&#x4E3A;&#x4E86;&#x8BA9;&#x5927;&#x5BB6;&#x6709;&#x4E00;&#x4E2A;&#x76F4;&#x89C2;&#x7684;&#x611F;&#x53D7;&#xFF0C;&#x6211;&#x7528;&#x4EE3;&#x7801;&#x6765;&#x5C06;&#x4E00;&#x4E2A;div&#x76D2;&#x5B50;&#x79FB;&#x52A8;&#x7684;&#x5168;&#x8FC7;&#x7A0B;&#x663E;&#x793A;&#x51FA;&#x6765;&#xFF08;&#x5F39;&#x5E55;&#xFF09;&#xFF0C;&#x6211;&#x4EEC;&#x6765;&#x770B;&#x770B;&#x5B83;&#x7684;&#x80CC;&#x540E;&#x90FD;&#x7ECF;&#x5386;&#x4E86;&#x4EC0;&#x4E48;&#xFF5E;</p>
+<p><strong>&#x79FB;&#x52A8;&#x7684;&#x601D;&#x60F3;</strong></p>
+<p><img src="https://img-blog.csdnimg.cn/20191202105241699.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2piajY1Njg4Mzl6,size_16,color_FFFFFF,t_70" width="90%"></p>
+<ul>
+<li>&#x6CE8;&#x610F;&#x5B9E;&#x9645;&#x60C5;&#x51B5;&#x662F;&#xFF0C;&#x53EF;&#x89C6;&#x533A;&#x57DF;&#x5916;&#x7684;&#x5143;&#x7D20;&#x662F;&#x4E0D;&#x4F1A;&#x88AB;&#x770B;&#x89C1;&#x7684;&#xFF08;&#x8BBE;&#x7F6E;<code>overflow&#xFF1A;hidden</code>&#xFF09;</li>
+<li>&#x7528;&#x6237;&#x53EF;&#x901A;&#x8FC7;<code>transform:translateX()</code>&#x7684;&#x65B9;&#x5F0F;&#x8FDB;&#x884C;&#x79FB;&#x52A8;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; <code>left&#x3001;right</code>&#x7684;&#x65B9;&#x5F0F;&#x8FDB;&#x884C;&#x79FB;&#x52A8;.</li>
+</ul>
+<p>&#x9644;&#x4E0A;CSS&#x4EE3;&#x7801;&#xFF08;Html&#x4EE3;&#x7801;&#x540C;&#x4E0A;&#x4E00;&#x6B65;&#x9AA4;&#xFF09;&#xFF1A;</p>
+<p><strong>Css&#xFF1A;</strong></p>
+<pre><code class="lang-css">.box{
+    width: 600px;
+    height: 240px;
+    background: rgba(0,0,0,0.1);
+    margin: 100px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.track{
+    height: 40px;
+    border: 4px solid rgba(0,0,0,0.3);
+    color: rgb(127, 197, 35);
+}
+.child{
+    width: 80px;
+    height: 20px;
+    border: 2px solid red;
+    margin-bottom: 20px;
+    transform: translateX(1000px);
+    animation: scrollTo linear 4s infinite
+}// &#x5F39;&#x5E55;&#x76D2;&#x5B50;&#x7684;&#x6837;&#x5F0F;
+@keyframes scrollTo {
+    to{
+        transform: translateX(-100px);
+    }
+}
+</code></pre>
+<p><strong>&#x6548;&#x679C;&#x56FE;&#xFF1A;</strong>
+<img src="https://img-blog.csdnimg.cn/20191202110031347.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2piajY1Njg4Mzl6,size_16,color_FFFFFF,t_7" width="70%"></p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;</strong></p>
+<ul>
+<li>&#x6B64;&#x65F6;&#x4E09;&#x6761;&#x5F39;&#x5E55;&#x7684;&#x8FD0;&#x52A8;&#x901F;&#x5EA6;&#x76F8;&#x540C;&#xFF0C;&#x8D77;&#x59CB;&#x70B9;&#x548C;&#x7ED3;&#x675F;&#x70B9;&#x7684;&#x4F4D;&#x7F6E;&#x4E5F;&#x76F8;&#x540C;&#xFF0C;&#x6548;&#x679C;&#x5982;&#x56FE;&#x4E0A;</li>
+</ul>
+<h3 id="&#x56DB;&#x3001;&#x4F18;&#x5316;&#x5F39;&#x5E55;&#xFF08;&#x6CE8;&#x610F;&#xFF0C;&#x8FD9;&#x91CC;&#x7684;&#x4EE3;&#x7801;&#x4E3A;&#x4FEE;&#x6539;&#x90E8;&#x5206;&#xFF0C;&#x6700;&#x540E;&#x4F1A;&#x8D34;&#x51FA;&#x5B8C;&#x6574;&#x4EE3;&#x7801;&#xFF09;">&#x56DB;&#x3001;&#x4F18;&#x5316;&#x5F39;&#x5E55;&#xFF08;&#x6CE8;&#x610F;&#xFF0C;&#x8FD9;&#x91CC;&#x7684;&#x4EE3;&#x7801;&#x4E3A;&#x4FEE;&#x6539;&#x90E8;&#x5206;&#xFF0C;&#x6700;&#x540E;&#x4F1A;&#x8D34;&#x51FA;&#x5B8C;&#x6574;&#x4EE3;&#x7801;&#xFF09;</h3>
+<p>&#x5148;&#x4E0A;&#x4E00;&#x4E2A;&#x771F;&#x5B9E;&#x7684;&#x5F39;&#x5E55;&#x622A;&#x56FE;
+<img src="https://img-blog.csdnimg.cn/20191202111923277.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2piajY1Njg4Mzl6,size_16,color_FFFFFF,t_70" width="60%"></p>
+<p><strong>&#x6211;&#x4EEC;&#x603B;&#x7ED3;&#x4E00;&#x4E0B;&#x4ED6;&#x6709;&#x4EC0;&#x4E48;&#x7279;&#x70B9;&#xFF1F;</strong></p>
+<ol>
+<li>&#x5F39;&#x5E55;&#x901A;&#x5E38;&#x5728;&#x5C4F;&#x5E55;&#x7684;&#x4E0A;&#x90E8;&#x5206;</li>
+<li>&#x4E3A;&#x4E86;&#x533A;&#x522B;&#x6BCF;&#x4E00;&#x6761;&#x5F39;&#x5E55;&#xFF0C;&#x989C;&#x8272;&#x4F1A;&#x6709;&#x4E0D;&#x540C;</li>
+<li>&#x6BCF;&#x6761;&#x5F39;&#x5E55;&#x7684;&#x79FB;&#x52A8;&#x901F;&#x5EA6;&#x90FD;&#x4E0D;&#x4F1A;&#x76F8;&#x540C;</li>
+<li>&#x5F39;&#x5E55;&#x7684;&#x6570;&#x91CF;&#x53EF;&#x4EE5;&#x9002;&#x5F53;&#x7684;&#x589E;&#x52A0;</li>
+<li>&#xFF08;&#x9898;&#x5916;&#x8BDD;&#xFF0C;&#x5F39;&#x5E55;&#x6BD4;&#x7535;&#x89C6;&#x5267;&#x6709;&#x610F;&#x601D;&#x7684;&#x591A;&#xFF5E;&#xFF09;</li>
+</ol>
+<p><strong>&#x6211;&#x4EEC;&#x4E00;&#x4E00;&#x53BB;&#x5B9E;&#x73B0;&#x5B83;</strong></p>
+<ul>
+<li>&#x5F39;&#x5E55;&#x901A;&#x5E38;&#x5728;&#x5C4F;&#x5E55;&#x7684;&#x4E0A;&#x90E8;&#x5206;<ul>
+<li>&#x8C03;&#x6574;&#x4E00;&#x4E0B;&#x53EF;&#x89C6;&#x533A;&#x57DF;&#x7684;&#x5BBD;&#x9AD8;&#x6BD4;&#x3002;<pre><code class="lang-css"><span class="hljs-selector-class">.box</span>{
+<span class="hljs-attribute">width</span>: <span class="hljs-number">800px</span>;
+<span class="hljs-attribute">height</span>: <span class="hljs-number">400px</span>;
+<span class="hljs-attribute">background</span>: <span class="hljs-built_in">rgba</span>(0,0,0,0.1);
+<span class="hljs-attribute">margin</span>: <span class="hljs-number">100px</span> auto <span class="hljs-number">0</span>;
+<span class="hljs-attribute">overflow</span>: hidden;
+}
+<span class="hljs-selector-class">.track</span>{
+<span class="hljs-attribute">height</span>: <span class="hljs-number">40px</span>;
+<span class="hljs-attribute">line-height</span>: <span class="hljs-number">40px</span>;
+<span class="hljs-attribute">border</span>: <span class="hljs-number">2px</span> solid <span class="hljs-built_in">rgba</span>(0,0,0,0.3);
+<span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">5px</span>;
+}
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/20191202113637993.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2piajY1Njg4Mzl6,size_16,color_FFFFFF,t_70" width="70%"></p>
+<ul>
+<li>&#x4E3A;&#x4E86;&#x533A;&#x522B;&#x6BCF;&#x4E00;&#x6761;&#x5F39;&#x5E55;&#xFF0C;&#x989C;&#x8272;&#x4F1A;&#x6709;&#x4E0D;&#x540C;<ul>
+<li>&#x5220;&#x9664;&#x5F39;&#x5E55;&#x7684;&#x8FB9;&#x6846;&#x3002;</li>
+<li>&#x4FEE;&#x6539;&#x5F39;&#x5E55;&#x7684;&#x6587;&#x6848;&#x3002;</li>
+<li>&#x8C03;&#x6574;&#x5F39;&#x5E55;&#x989C;&#x8272;&#x3001;&#x9002;&#x5F53;&#x6DFB;&#x52A0;&#x5149;&#x6548;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<pre><code class="lang-css">.child{
+    width: 80px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.1)
+}
+//&#x7B2C;&#x4E00;&#x4E2A;&#x5F39;&#x5E55;
+.child-1{
+    color: brown; //&#x6587;&#x5B57;&#x989C;&#x8272;
+    text-shadow: 2px 2px 3px rgb(248, 81, 20); // &#x6587;&#x5B57;&#x9634;&#x5F71;
+    transform: translateX(1000px);  //&#x6587;&#x5B57;&#x8D77;&#x59CB;&#x4F4D;&#x7F6E;
+    animation: scrollTo linear 4s infinite; //&#x52A8;&#x753B;
+}
+//&#x7B2C;&#x4E8C;&#x4E2A;&#x5F39;&#x5E55;
+.child-2{
+    color: rgb(127, 197, 35);//&#x6587;&#x5B57;&#x989C;&#x8272;
+    text-shadow: 2px 2px 3px rgb(173, 255, 80);// &#x6587;&#x5B57;&#x9634;&#x5F71;
+    transform: translateX(1050px); //&#x6587;&#x5B57;&#x8D77;&#x59CB;&#x4F4D;&#x7F6E;
+    animation: scrollTo linear 7s infinite; //&#x52A8;&#x753B;
+}
+//&#x7B2C;&#x4E09;&#x4E2A;&#x5F39;&#x5E55;
+.child-3{
+    color: coral;//&#x6587;&#x5B57;&#x989C;&#x8272;
+    text-shadow: 2px 2px 3px coral; // &#x6587;&#x5B57;&#x9634;&#x5F71;
+    transform: translateX(800px); //&#x6587;&#x5B57;&#x8D77;&#x59CB;&#x4F4D;&#x7F6E;
+    animation: scrollTo linear 5s infinite; //&#x52A8;&#x753B;
+}
+@keyframes scrollTo {
+    to{
+        transform: translateX(-100px);
+    }
+}
+</code></pre>
+<p><strong>&#x6548;&#x679C;&#x5982;&#x56FE;</strong>
+<img src="https://img-blog.csdnimg.cn/20191202114917445.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2piajY1Njg4Mzl6,size_16,color_FFFFFF,t_70" width="70%"></p>
+<h3 id="&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x4E0D;&#x8003;&#x8651;&#x6570;&#x91CF;&#x7684;&#x589E;&#x52A0;&#xFF0C;&#x5927;&#x5BB6;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x7528;js&#x52A8;&#x6001;&#x751F;&#x6210;&#x5F39;&#x5E55;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x672C;&#x7BC7;&#x6587;&#x7AE0;&#x4EC5;&#x8003;&#x8651;&#x7528;&#x7EAF;css&#x6A21;&#x62DF;&#x4E00;&#x4E2A;&#x5F39;&#x5E55;&#xFF0C;&#x5E76;&#x5C3D;&#x53EF;&#x80FD;&#x771F;&#x5B9E;&#x3002;">&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x4E0D;&#x8003;&#x8651;&#x6570;&#x91CF;&#x7684;&#x589E;&#x52A0;&#xFF0C;&#x5927;&#x5BB6;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x7528;Js&#x52A8;&#x6001;&#x751F;&#x6210;&#x5F39;&#x5E55;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x672C;&#x7BC7;&#x6587;&#x7AE0;&#x4EC5;&#x8003;&#x8651;&#x7528;&#x7EAF;CSS&#x6A21;&#x62DF;&#x4E00;&#x4E2A;&#x5F39;&#x5E55;&#xFF0C;&#x5E76;&#x5C3D;&#x53EF;&#x80FD;&#x771F;&#x5B9E;&#x3002;</h3>
+<p>PS&#xFF1A;&#xFF08;&#x5982;&#x679C;&#x4F60;&#x60F3;&#x589E;&#x52A0;&#x5F39;&#x5E55;&#x7684;&#x6570;&#x91CF;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x5728;&#x590D;&#x5236;<code>child-X</code>&#x51FA;&#x6765;&#xFF09;</p>
+<h3 id="&#x6700;&#x540E;&#x4F18;&#x5316;">&#x6700;&#x540E;&#x4F18;&#x5316;</h3>
+<ul>
+<li>&#x6700;&#x540E;&#x6211;&#x4EEC;&#x8981;&#x505A;&#x7684;&#x4E8B;<ol>
+<li>&#x7ED9;&#x5B83;&#x6DFB;&#x52A0;&#x4E00;&#x5F20;&#x80CC;&#x666F;&#x56FE;&#xFF08;&#x5047;&#x88C5;&#x6211;&#x4EEC;&#x5728;&#x770B;&#x5267;&#xFF09;</li>
+<li>&#x5220;&#x9664;&#x51F8;&#x663E;&#x8F68;&#x9053;&#x7684;&#x8FB9;&#x6846;</li>
+<li>&#x5FAE;&#x8C03;&#x6574;&#x4F53;&#x6837;&#x5F0F;</li>
+</ol>
+</li>
+</ul>
+<p>&#x6700;&#x540E;&#x7684;&#x7ED3;&#x679C;&#x5C31;&#x662F;&#x8FD9;&#x6837;</p>
+<p><img src="https://img-blog.csdnimg.cn/20191202133821169.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2piajY1Njg4Mzl6,size_16,color_FFFFFF,t_70" width="80%"></p>
+<p><strong>&#x672C;&#x7BC7;&#x535A;&#x5BA2;&#x4F1A;&#x6536;&#x5F55;&#x5230;&#x6709;&#x8DA3;&#x7684;CSS&#x4ED3;&#x5E93;&#x4E2D;</strong></p>
+<h3 id="&#x6709;&#x8DA3;&#x7684;css&#x4F20;&#x9001;&#x95E8;"><a href="https://webbj97.github.io/Interesting-CSS/" target="_blank">&#x6709;&#x8DA3;&#x7684;CSS&#x4F20;&#x9001;&#x95E8;</a></h3>
+<p><strong>&#x5982;&#x679C;&#x60A8;&#x89C9;&#x5F97;&#x611F;&#x5174;&#x8DA3;&#xFF0C;&#x6216;&#x8005;&#x8FD8;&#x6709;&#x5E2E;&#x52A9;&#x5230;&#x60A8;&#xFF0C;&#x4E0D;&#x59A8;&#x7ED9;&#x6211;&#x7684;github&#x70B9;&#x4E2A;star&#x5427;&#xFF5E;</strong></p>
+<h3 id="github&#x4F20;&#x9001;&#x95E8;"><a href="https://github.com/webbj97" target="_blank">github&#x4F20;&#x9001;&#x95E8;</a></h3>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> &#xA9; All Rights Reserved </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> updated 2019-12-02 13:41:12 </span> </footer>
                                 
                                 </section>
                             
@@ -483,7 +667,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"纯CSS模拟弹幕效果","level":"3.2.1","depth":2,"next":{"title":"加载效果汇总","level":"3.2.2","depth":2,"path":"docs/animation/loading.md","ref":"docs/animation/loading.md","articles":[]},"previous":{"title":"动画-animation","level":"3.2","depth":1,"path":"docs/animation.md","ref":"docs/animation.md","articles":[{"title":"纯CSS模拟弹幕效果","level":"3.2.1","depth":2,"path":"docs/animation/barrage.md","ref":"docs/animation/barrage.md","articles":[]},{"title":"加载效果汇总","level":"3.2.2","depth":2,"path":"docs/animation/loading.md","ref":"docs/animation/loading.md","articles":[]},{"title":"太极图","level":"3.2.3","depth":2,"path":"docs/animation/taicai.md","ref":"docs/animation/taicai.md","articles":[]},{"title":"Ring-Loader","level":"3.2.4","depth":2,"path":"docs/animation/ring-loader.md","ref":"docs/animation/ring-loader.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["chapter-fold","page-footer-ex","code","emphasize","github"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/webbj97"},"page-footer-ex":{"copyright":"© All Rights Reserved","markdown":false,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"updated"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"姜博健","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Gitbook Use","links":{"sidebar":{"CSDN":"https://blog.csdn.net/jbj6568839z"}},"gitbook":"*"},"file":{"path":"docs/animation/barrage.md","mtime":"2019-11-28T08:46:22.064Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-02T02:02:02.210Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"纯CSS模拟弹幕效果","level":"3.2.1","depth":2,"next":{"title":"加载效果汇总","level":"3.2.2","depth":2,"path":"docs/animation/loading.md","ref":"docs/animation/loading.md","articles":[]},"previous":{"title":"动画-animation","level":"3.2","depth":1,"path":"docs/animation.md","ref":"docs/animation.md","articles":[{"title":"纯CSS模拟弹幕效果","level":"3.2.1","depth":2,"path":"docs/animation/barrage.md","ref":"docs/animation/barrage.md","articles":[]},{"title":"加载效果汇总","level":"3.2.2","depth":2,"path":"docs/animation/loading.md","ref":"docs/animation/loading.md","articles":[]},{"title":"太极图","level":"3.2.3","depth":2,"path":"docs/animation/taicai.md","ref":"docs/animation/taicai.md","articles":[]},{"title":"Ring-Loader","level":"3.2.4","depth":2,"path":"docs/animation/ring-loader.md","ref":"docs/animation/ring-loader.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["chapter-fold","page-footer-ex","code","emphasize","github"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/webbj97"},"page-footer-ex":{"copyright":"© All Rights Reserved","markdown":false,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"updated"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"姜博健","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Gitbook Use","links":{"sidebar":{"CSDN":"https://blog.csdn.net/jbj6568839z"}},"gitbook":"*"},"file":{"path":"docs/animation/barrage.md","mtime":"2019-12-02T05:41:12.149Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-02T05:41:17.166Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
