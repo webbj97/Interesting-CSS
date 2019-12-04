@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>button</title>
     <style>
-        .btn{
+        .btn {
             position: relative;
             width: 250px;
             height: 60px;
@@ -20,7 +21,8 @@
             cursor: pointer;
             margin: 0 auto;
         }
-        .btn::after{
+
+        .btn::after {
             position: absolute;
             display: block;
             content: '';
@@ -28,16 +30,22 @@
             left: -20%;
             width: 7%;
             height: 100%;
-            background: rgba(255,255,255,0.4);
+            background: rgba(255, 255, 255, 0.4);
             transform: skew(40deg, 0);
             transition: all .4s ease-in-out;
         }
-        .btn:hover::after{
+
+        .btn:hover::after {
             left: 120%;
         }
     </style>
 </head>
+
 <body>
     <div class="btn">鼠标方放上来？</div>
+    <script>
+        
+    </script>
 </body>
+
 </html>

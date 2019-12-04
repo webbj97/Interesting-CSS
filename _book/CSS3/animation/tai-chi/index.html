@@ -7,10 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>tai-chi</title>
     <style>
+        body {
+            padding: 100px;
+        }
+
         .box {
-            position: absolute;
-            left: 50%;
-            margin-left: -200px;
+            margin: 0 auto;
             width: 400px;
             height: 400px;
             border-radius: 505;
@@ -31,8 +33,9 @@
             border-top-right-radius: 200px;
             border-bottom-right-radius: 200px;
             background: rgba(0, 0, 0, 1);
+
         }
-        .white::after,
+         .white::after,
         .black::after {
             content: '';
             position: absolute;
@@ -41,6 +44,7 @@
             border-radius: 50%;
             z-index: 10;
         }
+       
         .white::before,
         .black::before {
             content: '';
@@ -50,6 +54,7 @@
             border-radius: 50%;
             z-index: 100;
         }
+         
         .white::after {
             top: 0;
             left: 50%;
@@ -70,6 +75,7 @@
             bottom: 18.75%;
             background: white;
         }
+        
         @keyframes roto {
             from{
                 transform: rotate(0deg); 
