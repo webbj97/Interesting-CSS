@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>加载效果汇总 · Gitbook Use</title>
+        <title>律动阶梯 · Gitbook Use</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -81,10 +81,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="taicai.html" />
+    <link rel="next" href="../animation/barrage.html" />
     
     
-    <link rel="prev" href="barrage.html" />
+    <link rel="prev" href="potion-container.html" />
     
 
     </head>
@@ -207,9 +207,9 @@
         
         
     
-        <li class="chapter " data-level="3.1" data-path="../highLevel/summary.html">
+        <li class="chapter " data-level="3.1" data-path="summary.html">
             
-                <a href="../highLevel/summary.html">
+                <a href="summary.html">
             
                     
                     高级效果
@@ -221,9 +221,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="3.1.1" data-path="../highLevel/potion-container.html">
+        <li class="chapter " data-level="3.1.1" data-path="potion-container.html">
             
-                <a href="../highLevel/potion-container.html">
+                <a href="potion-container.html">
             
                     
                     药水瓶子
@@ -234,9 +234,9 @@
             
         </li>
     
-        <li class="chapter " data-level="3.1.2" data-path="../highLevel/gradients.html">
+        <li class="chapter active" data-level="3.1.2" data-path="gradients.html">
             
-                <a href="../highLevel/gradients.html">
+                <a href="gradients.html">
             
                     
                     律动阶梯
@@ -259,9 +259,9 @@
         
         
     
-        <li class="chapter " data-level="4.1" data-path="barrage.html">
+        <li class="chapter " data-level="4.1" data-path="../animation/barrage.html">
             
-                <a href="barrage.html">
+                <a href="../animation/barrage.html">
             
                     
                     纯CSS循环弹幕
@@ -317,9 +317,9 @@
             
         </li>
     
-        <li class="chapter " data-level="4.3" data-path="animation.html">
+        <li class="chapter " data-level="4.3" data-path="../animation/animation.html">
             
-                <a href="animation.html">
+                <a href="../animation/animation.html">
             
                     
                     动画-animation
@@ -331,9 +331,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="4.3.1" data-path="barrage.html">
+        <li class="chapter " data-level="4.3.1" data-path="../animation/barrage.html">
             
-                <a href="barrage.html">
+                <a href="../animation/barrage.html">
             
                     
                     纯CSS模拟弹幕效果
@@ -344,9 +344,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="4.3.2" data-path="loading.html">
+        <li class="chapter " data-level="4.3.2" data-path="../animation/loading.html">
             
-                <a href="loading.html">
+                <a href="../animation/loading.html">
             
                     
                     加载效果汇总
@@ -357,9 +357,9 @@
             
         </li>
     
-        <li class="chapter " data-level="4.3.3" data-path="taicai.html">
+        <li class="chapter " data-level="4.3.3" data-path="../animation/taicai.html">
             
-                <a href="taicai.html">
+                <a href="../animation/taicai.html">
             
                     
                     太极图
@@ -370,7 +370,7 @@
             
         </li>
     
-        <li class="chapter " data-level="4.3.4" data-path="ring-loader.md">
+        <li class="chapter " data-level="4.3.4" data-path="../animation/ring-loader.md">
             
                 <span>
             
@@ -495,7 +495,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >加载效果汇总</a>
+        <a href="../.." >律动阶梯</a>
     </h1>
 </div>
 
@@ -510,27 +510,110 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x6709;&#x8DA3;&#x7684;&#x52A0;&#x8F7D;&#x7B49;&#x5F85;&#x6548;&#x679C;">&#x6709;&#x8DA3;&#x7684;&#x52A0;&#x8F7D;/&#x7B49;&#x5F85;&#x6548;&#x679C;</h1>
-<h2 id="&#x52A0;&#x8F7D;&#x4E2D;&#xFF08;&#x4E00;&#xFF09;">&#x52A0;&#x8F7D;&#x4E2D;&#xFF08;&#x4E00;&#xFF09;</h2>
-<iframe height="300" style="width: 100%;" scrolling="no" title="XWWBLeB" src="https://codepen.io/webbj97/embed/XWWBLeB?height=265&amp;theme-id=light&amp;default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/webbj97/pen/XWWBLeB" target="_blank">XWWBLeB</a> by 姜博健
+                                <h2 id="&#x6D3B;&#x529B;&#x7684;&#x9636;&#x68AF;">&#x6D3B;&#x529B;&#x7684;&#x9636;&#x68AF;</h2>
+<pre><code class="lang-css">body {
+    background-color: #030434;
+    overflow: hidden;
+}
+.box {
+    height: 360px;
+    width: 9%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 4px;
+}
+.text-decoration {
+    text-align: center;
+    color: #dadada;
+    letter-spacing: 9px;
+    font-family: monospace;
+    padding-top: 35px;
+}
+.gradiant1 {
+    animation: arrow 2s infinite alternate;
+    animation-delay: .5s;
+    background-image: linear-gradient(to bottom, #f8e739, #f1d42d, #eac222, #e1b019, #d89e10);
+}
+.gradiant2 {
+    animation: arrow 2s infinite alternate;;
+    animation-delay: .6s;
+    background-image: linear-gradient(to bottom, #d89e10, #e28f00, #ec7f00, #f66b00, #ff5200);
+}
+.gradiant3 {
+    animation: arrow 2s infinite alternate;
+    animation-delay: .7s;
+    background-image: linear-gradient(to bottom, #ff5200, #f84603, #f13806, #e92909, #e2130b);
+}
+.gradiant4 {
+    animation: arrow 2s infinite alternate;
+    animation-delay: .8s;
+    background-image: linear-gradient(to bottom, #e2130b, #e1110c, #e00f0d, #df0c0d, #de090e);
+}
+.gradiant5 {
+    animation: arrow 2s infinite alternate;
+    animation-delay: .9s;
+    background-image: linear-gradient(to bottom, #de090e, #df002a, #dc003e, #d60051, #ce0061);
+}
+.gradiant6 {
+    animation: arrow 2s infinite alternate;
+    animation-delay: 1s;
+    background-image: linear-gradient(to bottom, #ce0061, #d50079, #d60094, #d000b3, #c115d4);
+}
+.gradiant7 {
+    animation: arrow 2s infinite alternate;
+    animation-delay: 1.1s;
+    background-image: linear-gradient(to bottom, #c115d4, #af0cd6, #9b07d8, #8508da, #6a0ddc);
+}
+.gradiant8 {
+    animation: arrow 2s infinite alternate;
+    animation-delay: 1.2s;
+    background-image: linear-gradient(to bottom, #6a0ddc, #5f0ddd, #530edd, #450fde, #3210de);
+}
+.gradiant9 {
+    animation: arrow 2s infinite alternate;
+    animation-delay: 1.3s;
+    background-image: linear-gradient(to bottom, #3210de, #2a1cdc, #2124d9, #172ad7, #0c2fd4);
+}
+.gradiant10 {
+    animation: arrow 2s infinite alternate;
+    animation-delay: 1.4s;
+    background-image: linear-gradient(to bottom, #0c2fd4, #0045d8, #0056d9, #0065d8, #1b73d5);
+}
+@keyframes arrow {
+    to{
+        height: 160px;
+    }
+}
+</code></pre>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;container&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;vibrant&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;col-sm-12 col-md-12&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h3</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;text-decoration&quot;</span>&gt;</span>VIBRANT GRADIENTS<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;col-sm-12 col-md-12&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;gradiant1 box&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;gradiant2 box&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;gradiant3 box&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;gradiant4 box&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;gradiant5 box&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;gradiant6 box&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;gradiant7 box&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;gradiant8 box&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;gradiant9 box&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;gradiant10 box&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<h2 id="&#x5728;&#x7EBF;&#x9884;&#x89C8;">&#x5728;&#x7EBF;&#x9884;&#x89C8;</h2>
+<iframe height="265" style="width: 100%;" scrolling="no" title="YzPQzQx" src="https://codepen.io/webbj97/embed/YzPQzQx?height=265&amp;theme-id=default&amp;default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/webbj97/pen/YzPQzQx" target="_blank">YzPQzQx</a> by 姜博健
   (<a href="https://codepen.io/webbj97" target="_blank">@webbj97</a>) on <a href="https://codepen.io" target="_blank">CodePen</a>.
 </iframe>
 
-<h2 id="&#x52A0;&#x8F7D;&#x4E2D;&#xFF08;&#x4E8C;&#xFF09;">&#x52A0;&#x8F7D;&#x4E2D;&#xFF08;&#x4E8C;&#xFF09;</h2>
-<p>&#x5229;&#x7528; &#x56DB;&#x5206;&#x4E4B;&#x4E00;&#x7684;border&#x548C;animation&#x5B8C;&#x6210;  </p>
-<iframe height="300" style="width: 100%;" scrolling="no" title="zYYJmZB" src="https://codepen.io/webbj97/embed/zYYJmZB?height=265&amp;theme-id=light&amp;default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/webbj97/pen/zYYJmZB" target="_blank">zYYJmZB</a> by 姜博健
-  (<a href="https://codepen.io/webbj97" target="_blank">@webbj97</a>) on <a href="https://codepen.io" target="_blank">CodePen</a>.
-</iframe>
-
-<h2 id="&#x52A0;&#x8F7D;&#x4E2D;&#xFF08;&#x4E09;&#xFF09;">&#x52A0;&#x8F7D;&#x4E2D;&#xFF08;&#x4E09;&#xFF09;</h2>
-<iframe height="300" style="width: 100%;" scrolling="no" title="dyygvXy" src="https://codepen.io/webbj97/embed/dyygvXy?height=265&amp;theme-id=light&amp;default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/webbj97/pen/dyygvXy" target="_blank">dyygvXy</a> by 姜博健
-  (<a href="https://codepen.io/webbj97" target="_blank">@webbj97</a>) on <a href="https://codepen.io" target="_blank">CodePen</a>.
-</iframe>
-
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> &#xA9; All Rights Reserved </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> updated 2019-11-14 11:34:23 </span> </footer>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> &#xA9; All Rights Reserved </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> updated 2019-12-24 17:31:45 </span> </footer>
                                 
                                 </section>
                             
@@ -557,12 +640,12 @@
 
             
                 
-                <a href="barrage.html" class="navigation navigation-prev " aria-label="Previous page: 纯CSS模拟弹幕效果">
+                <a href="potion-container.html" class="navigation navigation-prev " aria-label="Previous page: 药水瓶子">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="taicai.html" class="navigation navigation-next " aria-label="Next page: 太极图">
+                <a href="../animation/barrage.html" class="navigation navigation-next " aria-label="Next page: 纯CSS循环弹幕">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -573,7 +656,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"加载效果汇总","level":"4.3.2","depth":2,"next":{"title":"太极图","level":"4.3.3","depth":2,"path":"docs/animation/taicai.md","ref":"docs/animation/taicai.md","articles":[]},"previous":{"title":"纯CSS模拟弹幕效果","level":"4.3.1","depth":2,"path":"docs/animation/barrage.md","ref":"docs/animation/barrage.md","articles":[]},"dir":"ltr"},"config":{"plugins":["chapter-fold","page-footer-ex","code","emphasize","github","sectionx"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/webbj97"},"page-footer-ex":{"copyright":"© All Rights Reserved","markdown":false,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"updated"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"姜博健","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Gitbook Use","links":{"sidebar":{"CSDN":"https://blog.csdn.net/jbj6568839z"}},"gitbook":"*"},"file":{"path":"docs/animation/loading.md","mtime":"2019-11-14T03:34:23.090Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-21T09:33:45.829Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"律动阶梯","level":"3.1.2","depth":2,"next":{"title":"纯CSS循环弹幕","level":"4.1","depth":1,"path":"docs/animation/barrage.md","ref":"docs/animation/barrage.md","articles":[]},"previous":{"title":"药水瓶子","level":"3.1.1","depth":2,"path":"docs/highLevel/potion-container.md","ref":"docs/highLevel/potion-container.md","articles":[]},"dir":"ltr"},"config":{"plugins":["chapter-fold","page-footer-ex","code","emphasize","github","sectionx"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/webbj97"},"page-footer-ex":{"copyright":"© All Rights Reserved","markdown":false,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"updated"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"姜博健","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Gitbook Use","links":{"sidebar":{"CSDN":"https://blog.csdn.net/jbj6568839z"}},"gitbook":"*"},"file":{"path":"docs/highLevel/gradients.md","mtime":"2019-12-24T09:31:45.962Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-21T09:33:45.829Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
